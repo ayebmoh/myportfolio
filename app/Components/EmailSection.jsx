@@ -38,19 +38,18 @@ const EmailSection = () => {
             </p>
             <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/ayebmoh">
-                    <Image src={GithubIcon} />
+                    <Image alt='git' src={GithubIcon} />
                 </Link>
                 <Link href="https://www.linkedin.com/in/mohamed-ayeb-43bb0826b/">
-                    <Image src={LinkedinIcon} />
+                    <Image alt='linkedin' src={LinkedinIcon} />
                 </Link>
             </div>
         </div>
         <div>
         <form ref={form} onSubmit={sendEmail}>
-          <div class="mb-6">
+          <div className="mb-6">
             <label
-              for="email"
-              class="block mb-2 text-sm font-medium text-white"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Your email
             </label>
@@ -58,15 +57,14 @@ const EmailSection = () => {
               type="email"
               id="email"
               name='email'
-              class="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
+              className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
               placeholder="Banana@example.com"
               required
             />
           </div>
-          <div class="mb-6">
+          <div className="mb-6">
             <label
-              for="subject"
-              class="block mb-2 text-sm font-medium text-white"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Subject
             </label>
@@ -74,28 +72,27 @@ const EmailSection = () => {
               type="text"
               id="subject"
               name='subject'
-              class="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
+              className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
               placeholder="Just saying hi"
             />
           </div>
-          <div class="mb-6">
+          <div className="mb-6">
             <label
-              for="subject"
-              class="block mb-2 text-sm font-medium text-white"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Message
             </label>
             <textarea
               id="message"
               name='message'
-              class="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
+              className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
               placeholder="Let's talk about..."
             />
           </div>
-          <div class="mb-6">
+          <div className="mb-6">
             <button
               type="submit"
-              class="bg-gradient-to-br from-blue-500 via-purple-600  hover:bg-slate-200 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-gradient-to-br from-blue-500 via-purple-600  hover:bg-slate-200 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               {" "}
               Send message{" "}
