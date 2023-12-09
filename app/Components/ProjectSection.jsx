@@ -11,8 +11,8 @@ const projectdata = [
         description: "MindWell Hub is here to help students with their mental health. Listen to short podcasts for tips and stories. Use our private mental health tracker to check how you're feeling. Join our community to talk to others and find helpful resources. MindWell Hub also helps universities understand student mental health better. Take care of your well-being with MindWell Hub, where support is easy to find.",
         image: "images/projects/MINDWELL.png",
         tag: ["All","Web"],
-        gitUrl: "https://mindwellhub.netlify.app",
-        previewUrl: "/"
+        gitUrl: "https://github.com/ayebmoh/MINDWELLHUB",
+        previewUrl: "https://mindwellhub.netlify.app"
     },
     /*{
         id:3,
