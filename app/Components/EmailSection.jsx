@@ -27,7 +27,7 @@ const EmailSection = () => {
   return (
     <section id="contact" name="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
         <div className="absolute w-80 h-80 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full blur-lg top-full -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>  
-        <div className="z-10">
+        <div>
             <h5 className="text-xl font-bold text-white my-2">Let's Connect!</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
             {" "}
@@ -37,10 +37,10 @@ const EmailSection = () => {
             or juste want to say hi, I'll try my best to get back to you!
             </p>
             <div className="socials flex flex-row gap-2">
-                <Link href="https://github.com/ayebmoh">
+                <Link href="https://github.com/ayebmoh" target='_blank'>
                     <Image alt='git' src={GithubIcon} />
                 </Link>
-                <Link href="https://www.linkedin.com/in/mohamed-ayeb-43bb0826b/">
+                <Link href="https://www.linkedin.com/in/mohamed-ayeb-43bb0826b/" target='_blank'>
                     <Image alt='linkedin' src={LinkedinIcon} />
                 </Link>
             </div>
@@ -58,7 +58,7 @@ const EmailSection = () => {
               id="email"
               name='email'
               className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg  block w-full p-2.5"
-              placeholder="Banana@example.com"
+              placeholder="name@example.com"
               required
             />
           </div>

@@ -7,20 +7,11 @@ import { motion, useInView } from "framer-motion";
 const projectdata = [
     {
         id:1,
-        title: "Figma design for LV Website",
-        description: "Designing a Leave Management Website using Figma software",
-        image: "images/projects/P0.png",
-        tag: ["All","Design"],
-        gitUrl: "",
-        previewUrl: "/"
-    },
-    {
-        id:2,
-        title: "React Routing Test Website",
-        description: "This is Only a React Routing test including 404 custom pages",
-        image: "images/projects/P2.png",
+        title: "Students Mental health frontend website",
+        description: "MindWell Hub is here to help students with their mental health. Listen to short podcasts for tips and stories. Use our private mental health tracker to check how you're feeling. Join our community to talk to others and find helpful resources. MindWell Hub also helps universities understand student mental health better. Take care of your well-being with MindWell Hub, where support is easy to find.",
+        image: "images/projects/MINDWELL.png",
         tag: ["All","Web"],
-        gitUrl: "",
+        gitUrl: "https://MINDWELLHUB.netlify.app",
         previewUrl: "/"
     },
     /*{
